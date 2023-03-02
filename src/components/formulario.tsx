@@ -1,5 +1,5 @@
-import React, {useState} from "react";
 import { useForm } from "react-hook-form";
+import React,{useState} from "react";
 import { edadValidator } from "./validator";
 
 
@@ -14,7 +14,7 @@ const Formulario = () => {
     }
 
     const onSubmit = handleSubmit((values) => {
-        console.log(JSON.stringify(values));
+        console.log(JSON.stringify(values));       
         localStorage.setItem('Usuario', JSON.stringify(values))
     })
 

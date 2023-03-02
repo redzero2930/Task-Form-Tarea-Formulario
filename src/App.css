@@ -2,3 +2,18 @@
   text-align: center;
 }
 
+.nav {
+  background-color: black;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.nav ul{
+  list-style: none;
+}
+
+.nav a {
+  color: inherit;
+}
+
